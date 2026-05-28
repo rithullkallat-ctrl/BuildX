@@ -9,6 +9,7 @@ import {
   Swords,
   GraduationCap,
   Award,
+  Gift,
   Settings,
   Hammer,
   LogOut,
@@ -20,6 +21,7 @@ const navItems = [
   { href: "/duel", label: "Duels", icon: Swords },
   { href: "/mentor", label: "Mentor", icon: GraduationCap },
   { href: "/certificates", label: "Certificates", icon: Award },
+  { href: "/rewards", label: "Rewards", icon: Gift },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
 

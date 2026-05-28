@@ -10,6 +10,7 @@ import DuelPage from "./pages/duel";
 import MentorPage from "./pages/mentor";
 import CertificatesPage from "./pages/certificates";
 import SettingsPage from "./pages/settings";
+import RewardsPage from "./pages/rewards";
 
 function ProtectedRoute({ children }) {
   const { isAuthenticated } = useAuth();
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="/mentor" element={<MentorPage />} />
         <Route path="/certificates" element={<CertificatesPage />} />
         <Route path="/settings" element={<SettingsPage />} />
+        <Route path="/rewards" element={<RewardsPage />} />
       </Route>
     </Routes>
   );
